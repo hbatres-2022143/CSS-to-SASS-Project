@@ -1,0 +1,32 @@
+@import '../utilities/colors';
+@import '../helpers/extend';
+
+.about_section .row {
+  @extend %flex-align-center;
+}
+
+.about_section .detail-box {
+  padding-left: 10%;
+}
+
+.about_section .detail-box p {
+  margin-top: 20px;
+}
+
+.about_section .detail-box a {
+  display: inline-block;
+  padding: 8px 35px;
+  background-color: $dark-black;
+  color: $just-white;
+  border: 1px solid $dark-black;
+  margin-top: 30px;
+}
+
+.about_section .detail-box a:hover {
+  background-color: $transparent;
+  color: $dark-black;
+}
+
+.about_section .img-box img {
+  width: 100%;
+}

@@ -1,0 +1,57 @@
+@import '../helpers/extend';
+@import '../helpers/mixins';
+@import '../utilities/colors';
+
+.dish_section .row {
+  @extend %flex-align-center;
+}
+
+.dish_section .dish_container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+
+.dish_section .dish_container .box {
+  -ms-flex-preferred-size: calc(50% - 20px);
+  flex-basis: calc(50% - 20px);
+  margin: 10px;
+  border: 10px solid $white-grey-c;
+}
+
+.dish_section .dish_container .box img {
+  width: 100%;
+}
+
+.dish_section .dish_container .box:hover {
+  border: 10px solid $dark-black;
+}
+
+.dish_section .detail-box {
+  padding-left: 10%;
+  text-align: right;
+}
+
+.dish_section .detail-box .heading_container {
+  @extend %flex-align-pack-end;
+}
+
+.dish_section .detail-box p {
+  margin-top: 20px;
+}
+
+.dish_section .detail-box a {
+  display: inline-block;
+  padding: 8px 35px;
+  background-color: $dark-black;
+  color: $just-white;
+  border: 1px solid $dark-black;
+  margin-top: 30px;
+}
+
+.dish_section .detail-box a:hover {
+  background-color: $transparent;
+  color: $dark-black;
+}

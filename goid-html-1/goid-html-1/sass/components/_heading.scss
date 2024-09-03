@@ -1,0 +1,25 @@
+@import '../helpers/extend';
+@import '../helpers/mixins';
+@import '../utilities/colors';
+
+.heading_container {
+  @include flex-center;
+}
+
+.heading_container h2 {
+  font-weight: bold;
+  color: $dark-blue;
+  position: relative;
+  @extend %uppercase;
+}
+
+.heading_container hr {
+  margin: 0 10px;
+  border: none;
+  -webkit-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  max-width: 200px;
+  height: 3px;
+  background-color: $light-blue;
+}

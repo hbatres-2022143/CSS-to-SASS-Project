@@ -1,0 +1,40 @@
+@import '../utilities/colors';
+@import '../helpers/extend';
+@import '../helpers/mixins';
+
+.subscribe_section {
+  background-color: $dark-grey-d;
+  padding: 25px 0;
+}
+
+.subscribe_section form label {
+  font-size: 24px;
+  font-weight: bold;
+  @extend %uppercase;
+  color: $just-white;
+  margin: 0;
+}
+
+.subscribe_section form .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.subscribe_section form .box input {
+  width: 100%;
+  border: none;
+  background-color: $transparent;
+  border-bottom: 1px solid $just-white;
+  outline: none;
+  color: $just-white;
+}
+
+.subscribe_section form .box button {
+  background-color: $transparent;
+  border: none;
+  outline: none;
+  @extend %uppercase;
+  color: $just-white;
+  margin-left: -95px;
+}

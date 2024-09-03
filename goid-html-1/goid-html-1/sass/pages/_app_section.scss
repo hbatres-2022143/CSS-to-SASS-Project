@@ -1,0 +1,48 @@
+@import '../utilities/colors';
+@import '../helpers/extend';
+
+.app_section {
+  background-image: url(../images/app-bg.jpg);
+  background-size: 100% 86%;
+  background-repeat: no-repeat;
+  color: $just-white;
+  background-position: bottom;
+}
+
+.app_section .row {
+  @extend %flex-align-center;
+}
+
+.app_section .img-box img {
+  width: 100%;
+}
+
+.app_section .detail-box {
+  padding-top: 60px;
+}
+
+.app_section .detail-box h2 {
+  @extend %uppercase;
+  font-weight: bold;
+  margin-bottom: 35px;
+}
+
+.app_section .detail-box h2 span {
+  font-size: 1.5em;
+}
+
+.app_section .detail-box p {
+  color: $just-white;
+}
+
+.app_section .detail-box .btn-box {
+  margin-top: 35px;
+}
+
+.app_section .detail-box .btn-box a {
+  margin-right: 10px;
+}
+
+.app_section .detail-box .btn-box a img {
+  max-width: 100%;
+}

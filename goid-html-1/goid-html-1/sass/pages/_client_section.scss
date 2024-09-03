@@ -1,0 +1,45 @@
+@import '../helpers/mixins';
+@import '../helpers/extend';
+@import '../utilities/colors';
+
+.client_section .heading_container {
+  @extend %flex-align-pack-end;
+}
+
+.client_section .box {
+  width: 75%;
+  margin: 90px auto;
+}
+
+.client_section .box .client_id {
+  @include flex-center;
+  align-items: center;
+}
+
+.client_section .box .client_id h4 {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.client_section .box .detail-box {
+  margin-top: 30px;
+}
+
+.client_section .carousel-indicators {
+  margin: 0;
+  @extend %flex-align-pack;
+  bottom: -15px;
+}
+
+.client_section .carousel-indicators li {
+  margin: 0 3px;
+  width: 20px;
+  height: 20px;
+  opacity: 1;
+  background-color: $light-blue;
+  border-radius: 100%;
+}
+
+.client_section .carousel-indicators li.active {
+  background-color: $dark-grey-b;
+}

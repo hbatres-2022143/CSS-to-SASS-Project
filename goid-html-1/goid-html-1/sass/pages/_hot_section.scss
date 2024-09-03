@@ -1,0 +1,100 @@
+@import '../utilities/colors';
+@import '../helpers/extend';
+@import '../helpers/mixins';
+
+.hot_section .carousel_container {
+  border: 1px solid $white-grey-d;
+  padding: 45px 0 15px 0;
+  margin-top: 30px;
+  border-left: none;
+  border-right: none;
+}
+
+.hot_section .heading_container h2 {
+  margin-bottom: 0;
+}
+
+.hot_section .box {
+  text-align: center;
+}
+
+.hot_section .box .img-box {
+  position: relative;
+  @include flex-center;
+  @extend %flex-align-pack;
+  height: 135px;
+}
+
+.hot_section .box .img-box img {
+  width: 75%;
+}
+
+.hot_section .box .detail-box {
+  margin-top: 35px;
+}
+
+.hot_section .box .detail-box p {
+  margin-top: 10px;
+}
+
+.hot_section .box .detail-box a {
+  display: inline-block;
+  padding: 7px 20px;
+  background-color: $dark-black;
+  color: $just-white;
+  border: 1px solid $dark-black;
+  margin-top: 5px;
+}
+
+.hot_section .box .detail-box a:hover {
+  background-color: transparent;
+  color: $dark-black;
+}
+
+.hot_section .carousel-wrap {
+  margin: 0 auto;
+  padding: 0 5%;
+  position: relative;
+}
+
+.hot_section .owl-nav > div {
+  margin-top: -26px;
+  position: absolute;
+  top: 50%;
+  color: $white-grey-e;
+}
+
+.hot_section .owl-carousel .owl-nav .owl-prev,
+.hot_section .owl-carousel .owl-nav .owl-next {
+  width: 50px;
+  height: 50px;
+  background-color: $light-blue;
+  background-size: 9px;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  outline: none;
+}
+
+.hot_section .owl-carousel .owl-nav .owl-prev:hover,
+.hot_section .owl-carousel .owl-nav .owl-next:hover {
+  background-color: $dark-grey-b;
+}
+
+.hot_section .owl-carousel .owl-nav .owl-prev {
+  background-image: url(../images/left-angle.png);
+  left: -10%;
+}
+
+.hot_section .owl-carousel .owl-nav .owl-next {
+  right: -10%;
+  background-image: url(../images/right-angle.png);
+}
+
+.hot_section .owl-carousel .owl-dots.disabled,
+.hot_section .owl-carousel .owl-nav.disabled {
+  display: block;
+}

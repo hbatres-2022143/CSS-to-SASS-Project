@@ -1,0 +1,18 @@
+@import '../utilities/colors';
+
+@mixin flex-center {
+  display: flex;
+  align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+}
+
+@mixin border-bottom {
+  border-bottom: 1px solid $dark-grey-c;
+}
+
+@mixin border-color {
+  border: 1px solid $dark-grey-c;
+}

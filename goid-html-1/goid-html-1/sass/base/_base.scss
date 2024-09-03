@@ -1,0 +1,30 @@
+@import '../utilities/fonts';
+@import '../utilities/colors';
+
+p {
+  color: $dark-grey;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  color: $darker-grey;
+  background-color: $just-white;
+}
+
+a,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+a:hover,
+a:focus {
+  color: $initial;
+}
+
+.btn,
+.btn:focus {
+  outline: none !important;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}

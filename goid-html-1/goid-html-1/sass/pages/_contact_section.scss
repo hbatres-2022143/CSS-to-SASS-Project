@@ -1,0 +1,76 @@
+@import '../helpers/mixins';
+@import '../helpers/extend';
+@import '../utilities/colors';
+
+.contact_section h2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 45px;
+}
+
+.contact_section .form_container {
+  padding: 0 45px;
+}
+
+.contact_section .form_container input {
+  width: 100%;
+  height: 30px;
+  margin-top: 10px;
+  border: none;
+  @include border-bottom;
+  outline: none;
+}
+
+.contact_section .form_container input.message_input {
+  margin-top: 45px;
+}
+
+.contact_section .form_container input::-webkit-input-placeholder {
+  color: $dark-rgba;
+}
+
+.contact_section .form_container input:-ms-input-placeholder {
+  color: $dark-rgba;
+}
+
+.contact_section .form_container input::-ms-input-placeholder {
+  color: $dark-rgba;
+}
+
+.contact_section .form_container input::placeholder {
+  color: $dark-rgba;
+}
+
+.contact_section .form_container button {
+  background-color: $transparent;
+  border: 2px solid $light-blue;
+  color: $light-blue;
+  @extend %uppercase;
+  padding: 6px 40px;
+  border-radius: 25px;
+  margin-top: 45px;
+}
+
+.contact_section .contact_box {
+  margin-top: 35px;
+}
+
+.contact_section .contact_box a {
+  @include flex-center;
+  color: $dark-grey-c;
+  margin: 15px 0;
+}
+
+.contact_section .contact_box a .img-box {
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  @include border-color;
+  @include flex-center;
+  @extend %flex-align-pack;
+  margin-right: 15px;
+}
+
+.contact_section .contact_box a .img-box img {
+  width: 100%;
+}
