@@ -64,7 +64,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .heading_container {
@@ -143,7 +143,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .navbar-brand {
@@ -188,6 +188,24 @@ a:focus {
   margin: 0 40px 0 15px;
   background-position: center; }
 
+.about_section .row, .dish_section .row, .app_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.slider_section .img-box, .hot_section .box .img-box, .client_section .carousel-indicators, .contact_section .contact_box a .img-box {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.dish_section .detail-box .heading_container, .client_section .heading_container {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+  text-transform: uppercase; }
+
 .custom_menu-btn {
   z-index: 9;
   position: absolute;
@@ -226,6 +244,24 @@ a:focus {
   -webkit-transform: rotate(-45deg) translateY(-15.5px);
   transform: rotate(-45deg) translateY(-15.5px); }
 
+.about_section .row, .dish_section .row, .app_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.slider_section .img-box, .hot_section .box .img-box, .client_section .carousel-indicators, .contact_section .contact_box a .img-box {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.dish_section .detail-box .heading_container, .client_section .heading_container {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+  text-transform: uppercase; }
+
 .overlay {
   height: 100%;
   width: 0;
@@ -233,7 +269,7 @@ a:focus {
   z-index: 1;
   top: 0;
   left: 0;
-  background-color: black;
+  background-color: #000;
   background-color: rgba(62, 103, 205, 0.9);
   overflow-x: hidden;
   -webkit-transition: 0.5s;
@@ -249,11 +285,10 @@ a:focus {
   padding: 0px;
   text-decoration: none;
   font-size: 22px;
-  color: #ffffff;
+  color: #fff;
   display: block;
   -webkit-transition: 0.3s;
-  transition: 0.3s;
-  text-transform: uppercase; }
+  transition: 0.3s; }
 
 .overlay-content {
   position: relative;
@@ -280,7 +315,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .quote_btn-container a {
@@ -305,7 +340,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .slider_section {
@@ -503,7 +538,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .about_section .detail-box {
@@ -542,7 +577,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .dish_section .dish_container {
@@ -598,7 +633,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .hot_section .carousel_container {
@@ -701,7 +736,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .app_section {
@@ -751,7 +786,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .client_section .box {
@@ -804,7 +839,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .contact_section h2 {
@@ -890,7 +925,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .subscribe_section {
@@ -938,7 +973,7 @@ a:focus {
   -ms-flex-pack: end;
   justify-content: flex-end; }
 
-.heading_container h2, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
   text-transform: uppercase; }
 
 .footer_section {
@@ -980,3 +1015,112 @@ a:focus {
 
 .footer_section a {
   color: #fff; }
+
+/**************
+ * RESPONSIVE *
+ **************/
+.about_section .row, .dish_section .row, .app_section .row {
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+
+.slider_section .img-box, .hot_section .box .img-box, .client_section .carousel-indicators, .contact_section .contact_box a .img-box {
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center; }
+
+.dish_section .detail-box .heading_container, .client_section .heading_container {
+  -webkit-box-pack: end;
+  -ms-flex-pack: end;
+  justify-content: flex-end; }
+
+.heading_container h2, .overlay a, .quote_btn-container a, .slider_section .detail-box h1, .slider_section .detail-box .btn-box a, .slider_section .detail-box .btn-box .btn-1, .slider_section .detail-box .btn-box .btn-2, .app_section .detail-box h2, .contact_section .form_container button, .subscribe_section form label, .subscribe_section form .box button {
+  text-transform: uppercase; }
+
+@media (max-width: 768px) {
+  .hero_area {
+    height: auto; }
+    .hero_area::before {
+      width: 100%;
+      height: 35%; }
+    .sub_page .hero_area::before {
+      height: 100%; } }
+
+@media (max-width: 768px) {
+  .slider_section {
+    height: auto; }
+    .slider_section .detail-box {
+      text-align: center; }
+      .slider_section .detail-box::before {
+        display: none; }
+    .slider_section .side_heading {
+      display: none; } }
+
+@media (max-width: 480px) {
+  .slider_section .detail-box .btn-box .btn-1 {
+    margin: 0;
+    margin-bottom: 15px; } }
+
+@media (max-width: 768px) {
+  .about_section .detail-box {
+    padding: 0;
+    margin-bottom: 45px; } }
+
+@media (max-width: 768px) {
+  .dish_section .detail-box {
+    padding: 0;
+    margin-top: 45px; } }
+
+@media (max-width: 768px) {
+  .hot_section {
+    padding-bottom: 125px; }
+    .hot_section .owl-carousel .owl-nav .owl-prev {
+      top: 120%;
+      left: calc(50% - 55px); }
+    .hot_section .owl-carousel .owl-nav .owl-next {
+      top: 120%;
+      right: calc(50% - 55px); } }
+
+@media (max-width: 768px) {
+  .app_section {
+    background-size: cover; }
+    .app_section .row {
+      flex-direction: column-reverse; }
+    .app_section .detail-box {
+      padding: 45px; } }
+    @media (max-width: 768px) and (max-width: 576px) {
+      .app_section .detail-box {
+        padding: 45px 0; } }
+
+@media (max-width: 768px) {
+  .client_section .heading_container {
+    justify-content: center; }
+    .client_section .heading_container h2 {
+      text-align: center; }
+  .client_section .box {
+    text-align: center; }
+    .client_section .box .client_id {
+      flex-direction: column;
+      align-items: center; }
+      .client_section .box .client_id h4 {
+        margin: 0;
+        margin-top: 15px; } }
+
+@media (max-width: 768px) {
+  .contact_section .form_container {
+    text-align: center;
+    padding: 0; }
+  .contact_section .contact_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+    .contact_section .contact_box a {
+      width: 235px; } }
+
+@media (max-width: 768px) {
+  .subscribe_section form .box {
+    margin-top: 15px; } }
+
+@media (max-width: 1200px) {
+  .container {
+    max-width: 1170px; } }

@@ -1,0 +1,153 @@
+@import '../helpers/mixins';
+@import '../utilities/variables';
+@import '../helpers/extend';
+
+.hero_area {
+  @include media($max-width-lb) {
+    height: auto;
+
+    &::before {
+      width: 100%;
+      height: 35%;
+    }
+
+    .sub_page &::before {
+      height: 100%;
+    }
+  }
+}
+
+.slider_section {
+  @include media($max-width-lb) {
+    height: auto;
+
+    .detail-box {
+      text-align: center;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    .side_heading {
+      display: none;
+    }
+  }
+
+  @include media($max-width-ld) {
+    .detail-box .btn-box .btn-1 {
+      margin: 0;
+      margin-bottom: 15px;
+    }
+  }
+}
+
+.about_section {
+  @include media($max-width-lb) {
+    .detail-box {
+      padding: 0;
+      margin-bottom: 45px;
+    }
+  }
+}
+
+.dish_section {
+  @include media($max-width-lb) {
+    .detail-box {
+      padding: 0;
+      margin-top: 45px;
+    }
+  }
+}
+
+.hot_section {
+  @include media($max-width-lb) {
+    padding-bottom: 125px;
+
+    .owl-carousel .owl-nav {
+      .owl-prev {
+        top: 120%;
+        left: calc(50% - 55px);
+      }
+
+      .owl-next {
+        top: 120%;
+        right: calc(50% - 55px);
+      }
+    }
+  }
+}
+
+.app_section {
+  @include media($max-width-lb) {
+    background-size: cover;
+
+    .row {
+      flex-direction: column-reverse;
+    }
+
+    .detail-box {
+      padding: 45px;
+
+      @include media($max-width-lc) {
+        padding: 45px 0;
+      }
+    }
+  }
+}
+.client_section {
+  @include media($max-width-lb) {
+    .heading_container {
+      justify-content: center;
+
+      h2 {
+        text-align: center;
+      }
+    }
+    .box {
+      text-align: center;
+
+      .client_id {
+        flex-direction: column;
+        align-items: center;
+
+        h4 {
+          margin: 0;
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+}
+.contact_section {
+  @include media($max-width-lb) {
+    .form_container {
+      text-align: center;
+      padding: 0;
+    }
+
+    .contact_box {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+
+      a {
+        width: 235px;
+      }
+    }
+  }
+}
+
+.subscribe_section {
+  @include media($max-width-lb) {
+    form .box {
+      margin-top: 15px;
+    }
+  }
+}
+
+.container {
+  @include media($min-width-xl) {
+    max-width: 1170px;
+  }
+}

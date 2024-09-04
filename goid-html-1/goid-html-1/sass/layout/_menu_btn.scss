@@ -1,3 +1,7 @@
+@import '../helpers/mixins';
+@import '../helpers/extend';
+@import '../utilities/colors';
+
 .custom_menu-btn {
   z-index: 9;
   position: absolute;
@@ -9,14 +13,14 @@
   margin-top: 12px;
   outline: none;
   border: none;
-  background-color: transparent;
+  background-color: $transparent;
 }
 
 .custom_menu-btn span {
   display: block;
   width: 40px;
   height: 4px;
-  background-color: #262626;
+  background-color: $dark-black;
   margin: 7px 0;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
